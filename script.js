@@ -10,8 +10,12 @@ form.addEventListener('submit', (e) => {
     messages.push('Name is required')
   }
 
-  if (messages.length > 0) {
-    e.preventDefault()
+  if (password.value.length <= 6) {
+    messages.push('Password must be longer than 6 characters')
   }
 
+  if (messages.length > 0) {
+    e.preventDefault()
+    errorElement.innerText.messages.join(',')
+  }
 })
