@@ -63,6 +63,7 @@ header {
   position: absolute;
   top: 40px;
   right: 10px;
+  visibility: hidden;
 }
 
 .form-control small {
@@ -70,4 +71,16 @@ header {
   position: absolute;
   bottom: 0;
   left: 0;
+}
+
+.form button {
+  background-color: rgb(108, 168, 247);
+  border: 2px solid rgb(108, 168, 247);
+  border-radius: 4px;
+  color: white;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  font-family: inherit;
 }
