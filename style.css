@@ -81,7 +81,7 @@ header {
   visibility: visible;
 }
 
-.form-control.error i.fa-exclation-circle {
+.form-control.error i.fa-exclamation-circle {
   color: #e74c3c;
   visibility: visible;
 }
